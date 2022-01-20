@@ -2,7 +2,7 @@
 import sys
 import os
 
-stopwords = set(['the', 'and'])
+stopwords = set(['the', 'and', '!', '"', '$', '%', '&', '.', ',', '-', '(', ')', ';', ':', '?'])
 
 # get all lines from stdin
 for line in sys.stdin:
